@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+  <test  name="Test">
+  <parameter name="email" value="hbvhdhvbv@gmail.com"/>
+<parameter name="pass" value="Abcd12345"/>
+<parameter name="zip" value="20110"/>
+<parameter name="ph" value="5718952532"/>
+    <classes>
+      <class name="RegisterAccount.Create_account_with_Valid_Credential"/>
+      
+    </classes>
+  </test> 
+</suite> 

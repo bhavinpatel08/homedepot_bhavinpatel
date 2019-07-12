@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30451" started-at="2019-07-05T19:45:13Z" finished-at="2019-07-05T19:45:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30451" started-at="2019-07-05T19:45:13Z" finished-at="2019-07-05T19:45:44Z">
+      <class name="RegisterAccount.Create_account_with_Valid_Credential">
+        <test-method status="PASS" signature="SetUpBrowser()[pri:0, instance:RegisterAccount.Create_account_with_Valid_Credential@475530b9]" name="SetUpBrowser" is-config="true" duration-ms="22517" started-at="2019-07-05T19:45:13Z" finished-at="2019-07-05T19:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method status="PASS" signature="Validate_CreateAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegisterAccount.Create_account_with_Valid_Credential@475530b9]" name="Validate_CreateAccount" duration-ms="7508" started-at="2019-07-05T19:45:36Z" finished-at="2019-07-05T19:45:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hbvhdhvbv@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcd12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20110]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5718952532]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_CreateAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RegisterAccount.Create_account_with_Valid_Credential@475530b9]" name="tearDown" is-config="true" duration-ms="397" started-at="2019-07-05T19:45:43Z" finished-at="2019-07-05T19:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RegisterAccount.Create_account_with_Valid_Credential -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
